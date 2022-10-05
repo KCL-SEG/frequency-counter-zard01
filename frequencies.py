@@ -3,7 +3,7 @@
 
 def frequencies(items):
     frequencies = {}
-    # Your code goes here
+    items= list(map(str, items))
     for i in items:
       i=str(i)
       num=items.count(i)
